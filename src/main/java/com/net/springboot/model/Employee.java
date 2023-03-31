@@ -1,11 +1,6 @@
-package model;
+package com.net.springboot.model;
 
-//import jakarta.persistence.*;
-//import org.hibernate.annotations.Entity;
-//import org.hibernate.annotations.*;
-//import org.hibernate.annotations.Table;
-
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 @Entity
 @Table(name = "employees")
